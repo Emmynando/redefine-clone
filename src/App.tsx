@@ -1,4 +1,5 @@
 import AboutSection from "./components/Layout/AboutSection";
+import Features from "./components/Layout/Features";
 import Hero from "./components/Layout/Hero";
 import Navbar from "./components/UI/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutSection />
+      <Features />
     </div>
   );
 }
