@@ -139,7 +139,7 @@ export default function Hero() {
           G<b>a</b>ming
         </h1>
         <div className="absolute left-0 top-0 z-40 size-full">
-          <div className="absolute top-5 z-40 left-[1.5rem]">
+          <div className="absolute top-5 z-40 left-[1.5rem] mt-[2.5rem]">
             <h1 className="special-font hero-heading text-blue-100 z">
               Redefi<b>n</b>e
             </h1>

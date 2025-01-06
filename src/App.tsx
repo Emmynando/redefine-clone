@@ -4,7 +4,7 @@ import Navbar from "./components/UI/Navbar";
 
 function App() {
   return (
-    <div className="bg-zinc-600">
+    <div>
       <Navbar />
       <Hero />
       <AboutSection />
