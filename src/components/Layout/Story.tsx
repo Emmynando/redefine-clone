@@ -5,7 +5,7 @@ import RoundedCorners from "../UI/RoundedCorners";
 import Button from "../UI/Button";
 export default function Story() {
   const frameRef = useRef<HTMLImageElement | null>(null);
-  const [transformStyle, setTransformStyle] = useState("");
+  const [transformStyle, _] = useState("");
 
   function handleMouseMove(event: any) {
     const element = frameRef.current;
@@ -15,7 +15,7 @@ export default function Story() {
       const rect = frameRef.current.getBoundingClientRect();
 
       const xPos = clientX - rect.left;
-      const yPos = clientX - rect.top;
+      const yPos = clientY - rect.top;
 
       const centerX = rect.width / 2;
       const centerY = rect.height / 2;

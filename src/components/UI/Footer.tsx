@@ -1,11 +1,4 @@
-import {
-  FaWhatsapp,
-  FaYoutube,
-  FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-  FaGithub,
-} from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
 export default function Footer() {
   const socialLinks = [
     {
