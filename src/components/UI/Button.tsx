@@ -17,7 +17,7 @@ export default function Button({
     <main>
       <button
         id={id}
-        className={`flex items-center gap-2 relative w-fit rounded-full px-7 py-3 text-black ${containerClass}`}>
+        className={`flex items-center gap-2 relative w-fit rounded-full px-7 py-3 text-black  ${containerClass}`}>
         {leftIcon && <span>{leftIcon}</span>}
         <p className="font-general text-xs uppercase">{text}</p>
         {rightIcon && <span>{rightIcon}</span>}
