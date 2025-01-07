@@ -25,7 +25,7 @@ export default function AboutSection() {
     });
   });
   return (
-    <main id="about" className="min-h-screen w-screen">
+    <main id="about" className="min-h-screen w-screen overflow-x-hidden">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase">Welcome to Zentry</p>
         <AnimatedTitle
